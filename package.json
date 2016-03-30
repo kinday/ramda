@@ -46,5 +46,8 @@
     "rimraf": "^2.5.2",
     "tap-spec": "^4.1.1",
     "tape": "^4.4.0"
+  },
+  "dependencies": {
+    "ramda": "0.20"
   }
 }
