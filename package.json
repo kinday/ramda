@@ -1,6 +1,6 @@
 {
   "name": "@kinday/ramda",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Kinday’s Ramda wrapper with nifty tools",
   "main": "index.es5.js",
   "files": [
