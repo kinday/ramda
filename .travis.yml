@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - v5
+  - v4
+after_script:
+  - 'npm run coveralls'
+deploy:
+  provider: npm
+  email: leonard@kinday.ru
+  api_key:
+    secure: P8YHlVxfp46o7vX3ubJDJPkljM16SSEcNWczk6sy9O98kGWUGPqDOy7gURCxjyE/7oqOkQuGdtUX266mqjNjCdgQLFgUfYL+8bO0mRu6sDk3B4WIwaGXcHLzRFCcZRd0qrDtLVQ5S5CHJ05BSgbrmBSjTkO/kSSMG+j6LIR8+pj1XbITeVQHORLvC9CRENCtJhfa1tXoMebkXR8TapDRidxB7hP87Uw2S8LG0uuPpGlm+1TJajTGZpVO42ACkfaepLceBmLOfu3n8XFoKJ+8rcS6w6A7qWCcenxJ1kJazfUmEVJhJmdyL9vxvMesJBugHI5g3iJz2fV5sk/HGyZ4ODUErV+0kv66fu8sZzMFUJmlvpdAwfrXu9HgQ+FvsZGmfqzKT+ilpeTvExiMAp0PaRiffgeyvmMFPP1phx7AsMeJdTgxTZq+8gWi20DKnRsU2sVSyPA9l3O5RSrCLEOhmCgQXdM0tVA4Po33Y90Ytm1M+uAu02mfbzO5q0cAvjyJwKu11ZjaIJ7piA5ivrC/yir9Ro+TmYwghMOerY8ppQwE/LgX5eYI1nGF4Gfo6gkXpOa9kY+1zMm5gbR9chsPjZuv5k7+Jovl3aooCuTByCEIgiP1PdjArgIQzZUae7K2D8oOVp2s3uZXFmMizNNfgq8rrYVw7/w2g4EcQzkgcgg=
+  on:
+    branch: master
+    tags: true
