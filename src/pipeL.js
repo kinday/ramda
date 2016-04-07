@@ -1,7 +1,7 @@
-import {apply} from 'ramda';
-import {bind} from 'ramda';
-import {intersperse} from 'ramda';
-import {pipe} from 'ramda';
+import apply from 'ramda/src/apply';
+import bind from 'ramda/src/bind';
+import intersperse from 'ramda/src/intersperse';
+import pipe from 'ramda/src/pipe';
 import log from './log';
 
 export default function pipeL(...rest) {
