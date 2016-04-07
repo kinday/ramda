@@ -1,6 +1,6 @@
 import test from 'tape';
-import {bind} from '../';
-import {log} from '../';
+import {bind} from '../src';
+import {log} from '../src';
 
 test('#log', ({equal, plan}) => {
   plan(2);

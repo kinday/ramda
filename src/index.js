@@ -1,7 +1,7 @@
 import ramda from 'ramda';
-import {chainP} from './helpers';
-import {log} from './helpers';
-import {pipeL} from './helpers';
+import chainP from './chainP';
+import log from './log';
+import pipeL from './pipeL';
 
 const extensions = {
   chainP,

@@ -1,7 +1,7 @@
 import test from 'tape';
-import {chainP} from '../';
-import {inc} from '../';
-import {pipeP} from '../';
+import {chainP} from '../src';
+import {inc} from '../src';
+import {pipeP} from '../src';
 
 test('#chainP', ({deepEqual, plan}) => {
   const fixture = [Promise.resolve(1), Promise.resolve(2), Promise.resolve(3)];

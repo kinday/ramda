@@ -1,7 +1,7 @@
 import test from 'tape';
-import {bind} from '../';
-import {inc} from '../';
-import {pipeL} from '../';
+import {bind} from '../src';
+import {inc} from '../src';
+import {pipeL} from '../src';
 
 test('#pipeL', ({equal, plan}) => {
   plan(3);
