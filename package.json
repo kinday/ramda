@@ -48,6 +48,6 @@
     "tape": "^4.4.0"
   },
   "dependencies": {
-    "ramda": "0.20"
+    "ramda": "0.21"
   }
 }
